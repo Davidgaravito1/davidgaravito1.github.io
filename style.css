@@ -1,0 +1,308 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #D1F2EB;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-style: oblique;
+}
+
+/**header **/
+#header-nav {
+  background-color: #AEB6BF;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 8px 8px 8px 0;
+}
+
+.navbar-brand {
+  padding-top: 40px;
+}
+
+.navbar-brand h1 { /*name of company*/
+  font-family: Copperplate, Papyrus, fantasy;
+  font-style: normal;
+  color: darkcyan;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a {
+  color: darkblue;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 2.0em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkblue;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -50px;
+}
+
+/* END HEADER */
+
+/* FOOTHER */
+
+.panel-footer {
+margin-top: 500px;
+padding: 10px;
+padding-bottom: 10px;
+background-color: #0E6655;
+border-top: 0;
+}
+.panel-footer div.row {
+  margin-top: 35px;
+}
+#info, #ig {
+  line-height: 2;
+}
+#info > span, #ig > span {
+  font-size: 1.2em;
+}
+#ig a {
+  color: lightgray;
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: center;
+}
+.panel-footer .container .text-center {
+  color: black;
+}
+
+/*END FOOTHER*/
+
+.container p {
+text-align: right;
+font-size: 0.8;
+color: darkblue;
+}
+.container .jumbotron {
+  border: 2px solid darkblue;
+  margin-top: 150px;
+  padding: 0;
+}
+
+#galeria-tile, #realiza-tile {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid darkgreen;
+  overflow: hidden;
+}
+#galeria-tile:hover, #realiza-tile:hover {
+  box-shadow: 0 1px 5px 1px darkblue;
+}
+
+#galeria-tile {
+  background: url('C:/Users/HP/art_davidgaravito/site/web-page-art/retrato.png') no-repeat;
+  background-position: center;
+}
+#realiza-tile {
+  background: url('C:/Users/HP/art_davidgaravito/site/web-page-art/impresionismo1.png') no-repeat;
+  background-position: center;
+}
+
+#galeria-tile span, #realiza-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: dimgray;
+  color: black;
+  opacity: .9;
+}
+
+/*galeria page*/
+
+.container h2 {
+  margin-top: 130px;
+  color: darkblue;
+}
+.container .text-center {
+  color: darkblue;
+}
+.galeria-tile {
+  margin-bottom: 25px;
+}
+.galeria-tile hr {
+  width: 80%;
+}
+.galeria-item-price {
+  font-size: .8em;
+  text-align: center;
+  margin-top: 5px;
+  color: black;
+}
+.galeria-photo {
+  margin-top: 20px;
+  position: relative;
+  border: 2px solid darkcyan;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.galeria-photo div {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  background-color: darkcyan;
+  opacity: .9;
+  text-align: center;
+  font-weight: bold;
+}
+.galeria-item-description {
+  padding-right: 30px;
+}
+.galeria-tile h3 {
+  color: darkcyan;
+  font-weight: bold;
+}
+.galeria-item-details {
+  font-size: .9em;
+  font-style: oblique;
+  color: darkblue;
+}
+/* End galery*/
+
+/*realiza*/
+
+/*End realiza*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron{
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ #logo-img {
+  background: url('logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #logo-img {
+  background: url('logo50.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 3px 3px 3px 0;
+  }
+  .container .jumbotron {
+  margin-top: 200px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #logo-img {
+  background: url('logo50.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 2px 2px 2px 2px;
+  }
+  /* header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /*restaurante name*/
+    padding-top: 10px;
+    font-size: 4vw; /*1vw=1% de la ventana de pantalla*/
+  }
+  .navbar-brand p { /*daga cert*/
+    font-size: .4em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /*star-k*/
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .container .jumbotron {
+  margin-top: 110px;
+  width: 100%;
+  height: 400px;
+
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .panel-footer {
+    margin-top: 870px;
+  }
+  .panel-footer section {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .container h2 {
+  margin-top: 100px;
+  }
+  .galeria-photo {
+  margin-top: 20px;
+  position: relative;
+  border: 2px solid darkcyan;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  max-width: 250px;
+  }
+  .galeria-item-price {
+  font-size: 1.0em;
+  text-align: center;
+  margin-top: 5px;
+  color: black;
+  }
+  .galeria-tile h3 {
+  font-size: 1.2em;
+  }
+}
